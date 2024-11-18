@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    inset: 0;
+}
+.bokey_shygarma{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+/* Стили для бокового меню */
+.sidebar {
+    color: #fff;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+
+    text-align: center;
+}
+
+
+
+.sidebar ul li :hover {
+    background-color: #575757;
+    text-decoration: none;
+}
+
+/* Стили для основного контента */
+.content {
+    flex-grow: 1;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+.Oralhan{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Aipara_img{
+    width: 200px;
+    height: 260px;
+}
+ul{
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-fluid{
+    padding: 0;
+}

@@ -1,0 +1,55 @@
+*{
+    inset: 0;
+    margin: 0;
+    padding: 0;
+}
+.color-text-tr{
+    color: #fff;
+    transition: all 0.5s;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.color-text-tr:hover{
+    color: orange;
+}
+.text-org{
+    color: orange;
+}
+.bg-body-fon{
+    background-color: rgb(51, 43, 0);
+}
+.img-logo{
+    display: flex;
+}
+.title-1{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.block_main1{
+    align-items: center;
+    place-items: center;
+}
+.center{
+        display: flex;
+        justify-content: center; /* Центрирует по горизонтали */
+        align-items: center;     /* Центрирует по вертикали */
+        height: 100%;
+    }
+.p_br{
+    font-size: 18px;
+    color: #fff;
+}
+@media (min-width:0px) and (max-width:768px) {
+    .title-1{
+        font-size: 40px;
+    }
+  }
+body{
+    background-image: url(https://adyrna.kz/content/uploads/2024/09/img_0494-960x500.jpeg?token=3ecd40cfd9452dab53bd3c58626a18f4);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-1{
+    color: #fff;
+}
